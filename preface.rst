@@ -1,75 +1,87 @@
 .. include:: common.txt
 
-Preface
-*******
-Go_ is a programming language created by a team of *very* talented folks at
-Google_ with the help of many people from the Open Source community. Its source
-code is open source itself and can be viewed and modified freely.
+Prefácio
+********
 
-This book will try to teach you how to write some code in Go, while having fun
-doing so. It comes with many illustrative examples and diagrams in order to make
-the studied concepts easy to understand.
+Go_ é uma linguagem de programação criada por um time talentoso de pessoas no
+Google_ com a ajuda de muitas pessoas da comunidade Open Source. Seu código fonte
+está disponível e pode ser visto e modificado livremente.
 
-Why Go?
-=======
-There are gazillions (not that many actually) of programming languages already in
-the wild. So one could, and rightly so, ask why yet another language?
-The fact is Go is easy to grok, and fun to use but also efficient and well
-designed.
+Este livro irá tentar lhe ensinar como escrever código em Go, enquanto se diverte
+aprendendo. Ele contém diversos exemplos e diagramas para facilitar o entendimento
+dos conceitos.
 
-Go is a compiled language, i.e. a language that produces machine code that
-can be executed without the need of an external interpreter like Python, Puby,
-Perl and other scripting languages.
+Por que Go?
+===========
 
-In fact, if we were to compare Go to something, it would be a modern C. Yes,
-that's a strong statement that calls for a justification. Being a C programmer
-myself, C has its very own dear place in my heart, a place that won't be shared
-by anything else. But Go earned my respect and that of many others thanks to its
-simplicity, efficiency and smart concepts that this book aims to demonstrate.
+Existe um quaquilhão (nem tanto assim) de linguagems disponívels. Então alguém poderia
+questionar, com razão, por quê outra linguagem de programação?
+O fato é que Go é fácil de entender e divertida de usar ao mesmo tempo que é eficiente
+e bem projetada.
 
-Go comes with some new syntax and idioms but not too many. Enough to make things
-evolve, but not too many to alienate people who are used to some other
-programming language. This balance, and -I'd dare to say- *minimalism* are what
-makes Go fun to learn.
+Go é uma linguagem compilada, isto é, uma linguagem que produz código de máquina que
+pode ser executado sem a necessidade de um interpretador externo como Python, Ruby, Perl
+e outras linguagens de script.
 
-Go has the efficiency of statically-typed languages, yet it provides some easy
-syntax and concepts that make it as *cool* as dynamic languages.
+Na verdade, se formos comparar Go com algo, ele seria um C modernizado. Sim esta é uma
+afirmação que precisa de uma justificativa. Sendo eu um programador C, C possui um lugar
+especial no meu coração, um lugar que não vai ser compartilhado por mais nada. Porém Go
+ganhou meu respeito e o de muitos outros graças a sua simplicidade, eficiẽncia e conceitos
+inteligentes que este livro busca demonstrar.
 
-Go programs are compiled fast and run fast. Go also natively supports
-concurrency and communication.
+Go vem com novas sintaxes e idiomas mas não muitos. São o suficiente para fazer as coisas
+evoluirem porém não muitos de modo a alienar as pessoas que estão acostumadas a outras 
+linguagens de programação. Este balanço, e ouso dizer *minimalismo* são o que fazer Go
+uma linguagem divertida de aprender.
 
-Why this book?
-==============
-This modest work is an introduction to the Go language. It is meant to be easy
-to understand by everyone and tries to make this learning experience fun and
-easy.  Yes, that's quite a challenge, but... *aude aliquid dignum!* [#f1]_.
+Go possui a eficiência de uma linguagem com tipos estáticos, porém ela provê sintaxes
+e conceitos para deixá-la *divertida* como as linguagens dinâmicas.
 
-I personally don't buy the *"learn the hard way"* method. Learning shouldn't be
-*hard*! Just remember that we've learnt how to speak while playing when we were
-younger and stupider. And Go, or any other language for that matter, is actually
-a lot easier than any spoken language; there are fewer words, fewer syntax
-rules, fewer idioms...
+Programas em Go compilam rápido e executam rápido. Go suporta concorrência e comunicação
+nativamente.
 
-So here's the deal and the only condition for learning with this book: take it
-easy. Really, consider it as a game.
+Por que este livro?
+===================
 
-We will play with data and code, learn something new every time. There will be
-some diversity, from simple, or even silly things, to some very serious and
-smart concepts. 
+Este trabalho modesto é uma introdução para a linguagem Go. Seu objetivo é ser fácil
+de entender por qualquer pessoa e tenta fazer a experiência do aprendizado ser
+divertida e fácil. Sim, é um desafio considerável, mas ... *aude aliquid dignum!* [#f1]_.
 
-Also, almost -if not all- the provided programs can be tested online in the `Go
-Playground`_ simply by copying/pasting them there.
+Eu pessoalmente não compro a idéia de *"aprenda do jeito difícil"*. Aprender não deve
+ser *difícil*! Apenas lembre-se que nos aprender a falar enquanto brincavamos quando
+eramos jovens e bobos. E Go, ou qualquer outra linguagem, é na verdade muito mais
+fácil do que qualquer linguagem falada; existem menos palavras, menos regras sintáticas,
+menos idiomas.
 
-A work in progress
-==================
-This is a personal initiative, I have no deadlines with any publisher. I do this
-for fun, and during my free time. I will strive to improve it as much as I can.
-I don't claim to be *perfect* ---no one is! 
+Então aqui está o negócio e a única condição para aprender com este livro: Vá devagar.
+Sério, considere isso um jogo.
 
-So your help, criticism, suggestions are more than welcome. And the more you
-contribute, the better it will be. 
+Nós vamos jogar com informações e código, aprender algo novo o tempo todo. Vão existir
+variações de coisas simpls, até mesmo bobas, até conceitos sérios e inteligentes.
 
-Thanks for your attention, and have fun!
+Também, quase todos os programas (se não todos) podém ser testado on-line no `Playground do Go`_
+apenas copiando e colando eles lá.
+
+Um trabalho em andamento
+========================
+
+Está é uma iniciativa pessoal, não possuo prazos com nenhuma editora. Eu faço isso
+por diversão, durante meu tempo livre. Vou tentar melhorar o máximo que puder, não
+tento ser *perfeito* ---ninguém é!
+
+Sendo assim sua ajuda, critícia, sugestões são mais que bem vindas. Quanto mais
+contribuir melhor ele será.
+
+Obrigado pela atenção e divirta-se.
+
+Notas da tradução
+=================
+
+Como todo processo de tradução este não é uma tradução literal do texto original. O sentido
+geral será mantido porém os termos podem ser alterados. Alguns trechos são pessoas do autor
+e foram mantidos em respeito ao trabalho do mesmo.
+
+Em caso de divergência entre este texto e o original, o original deve ser considerado correto.
 
 .. external links and footnotes:
 

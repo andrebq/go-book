@@ -1,22 +1,22 @@
-Hey, you! Yes, you!
-*******************
+Ei, você! É você!
+*****************
 .. image:: _static/images/gophercolor.png
     :class: rightfloat
 
-See the little gopher? Isn't it cute? Yes it is! He is the mascot of the Go
-programming language *---Go, what?* Why Go, the programming language of course!
+Está vendo o pequeno roedor? Ele não é fofo? Sim ele é! Ele é o mascote da
+linguagem de programação Go *---Go o que?!*. Go a linguagem de programação!
 
-This website is an online book that aims to introduce people to this awesome
-language. And if you, actually, stumbled upon it while looking for real gophers,
-let me still invite you to read it and learn something cool! C'mon, go-pher it!
+Este site é um livro online com o objetivo de apresentar as pessoa á esta
+incrível linguagem de programação.
 
-Welcome aboard
+        Essa é uma tradução/adaptação do livro original disponível em http://go-book.appspot.com
+
+Bem vindo a bordo
 ==============
 .. container:: side
 
-    In this part, we will learn the very basic things about Go. The basic syntax
-    for programs, how to declare variables, pointers and how to use basic
-    control structures.
+    Nesta seção, vamos aprender as coisas mais básicas sobre Go. A sintaxe dos programas,
+    como declarar variáveis, pointeiros e estruturas básicas de controle.
 
 .. toctree::
    :maxdepth: 1
